@@ -28,7 +28,7 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: brown;
+    background-color: lightgray;
     align-items: center;
 }
 .menu ul{
@@ -72,11 +72,35 @@ main{
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: lightgray;
 }
+.social div.instagram{
+    background-image: url(./Instagram_icon.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.social div.tiktok{
+    background-image: url(./tiktok.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.social div.email{
+    background-image: url(./email.jpeg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 .destaque{
     width: 50%;
     background-color: aliceblue;
+    background-image: url(./corinthians-depay_028dce-e1725924304857.webp); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
 }
 footer{
     height: 100px;
