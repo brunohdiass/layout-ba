@@ -18,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: grey;
 }
 header{
     height: 200px;
@@ -28,8 +29,11 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: lightgray;
     align-items: center;
+    background-image: url(./img/logo\ mwu\ timao.jpeg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 .menu ul{
     display: flex;
@@ -75,19 +79,19 @@ main{
     background-color: lightgray;
 }
 .social div.instagram{
-    background-image: url(./Instagram_icon.png); 
+    background-image: url(./img/Instagram_icon.png); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
 }
 .social div.tiktok{
-    background-image: url(./tiktok.png); 
+    background-image: url(./img/tiktok.png); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
 }
 .social div.email{
-    background-image: url(./email.jpeg); 
+    background-image: url(./img/email.jpeg); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -96,7 +100,7 @@ main{
 .destaque{
     width: 50%;
     background-color: aliceblue;
-    background-image: url(./corinthians-depay_028dce-e1725924304857.webp); 
+    background-image: url(./img/corinthians-depay_028dce-e1725924304857.webp); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
