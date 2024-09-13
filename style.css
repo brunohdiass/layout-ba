@@ -20,7 +20,20 @@ body{
 }
 header{
     height: 200px;
-    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: brown;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
 }
 main{
     flex-grow: 1;
